@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray_50">#30000000</color>
+    <color name="gray">#696967</color>
+    <color name="write">#FFFFFF</color>
+
+    <color name="green">#49ba73</color>
+    <color name="kedu">#e8ebe8</color>
+    <color name="numberText">#646564</color>
+<!--*************************************************-->
+    <color name="gray_80">#f5f5f6</color>
+    <color name="gray_text_light">#bababb</color>
+    <color name="black_text">#4c4c4c</color>
+    <color name="gray_text_dark">#b1b1b1</color>
+    <color name="blue">#2b7ee7</color>
+</resources>

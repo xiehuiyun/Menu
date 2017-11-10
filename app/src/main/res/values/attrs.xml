@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaveView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="viewWidth" format="integer"></attr>
+        <attr name="ViewHeight" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="AddDeleteCount">
+        <attr name="maxCount" format="integer" />
+        <attr name="btnWidth" format="dimension" />
+        <attr name="editWidth" format="dimension" />
+        <attr name="AddDeleteBackgroungColor" format="color" />
+        <attr name="isEditCount" format="boolean" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RuleView">
+        <attr name="maxScale" format="integer" />
+        <attr name="minScale" format="integer" />
+        <attr name="height" format="dimension" />
+        <attr name="margin" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OldThumbUpView">
+        <attr name="o_tuv_count" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CountView">
+        <attr name="cv_count" format="integer"/>
+        <attr name="cv_text_color" format="color"/>
+        <attr name="cv_text_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ThumbUpView">
+        <attr name="tuv_count" format="integer"/>
+        <attr name="tuv_text_color" format="color"/>
+        <attr name="tuv_text_size" format="dimension"/>
+        <attr name="tuv_drawable_padding" format="dimension"/>
+        <attr name="tuv_isThumbUp" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer"/>
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="maxNumber" format="integer"/>
+    </declare-styleable>
+</resources>

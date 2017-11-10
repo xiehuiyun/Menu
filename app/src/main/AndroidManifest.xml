@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.jhc.startdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="design_width"
+            android:value="768" />
+        <meta-data
+            android:name="design_height"
+            android:value="1280" />
+
+        <activity android:name=".project.Main2Activity"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<service-->
+        <!--android:name=".aidl.AIDLService"-->
+        <!--android:process=":remote" />-->
+
+        <!--<activity android:name=".aidl.AIDLActivity" />-->
+
+        <!--<service-->
+        <!--android:name=".message.MessageService"-->
+        <!--android:process=":remote1" />-->
+
+        <!--<activity android:name=".popwindow.PopwindowActivity" />-->
+        <!--<activity android:name=".duty.DutyActivity" />-->
+        <!--<activity android:name=".project.Main2Activity"></activity>-->
+    </application>
+
+</manifest>

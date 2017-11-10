@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StartDemo</string>
+    <string name="duty_mean">避免耦合将对象连成一条链，沿着这条链传递请求，直到有对象处理它为止。android的点击事件也是这样的分发机制</string>
+    <string name="duty_grogress">报销的流程：员工->组长（只能批1000以内的报销）->主管（只能批5000以内的报销）->经理（只能批10000以内的报销）->老板</string>
+</resources>
